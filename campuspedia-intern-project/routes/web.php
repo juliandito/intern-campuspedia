@@ -13,6 +13,24 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// Route::get('/', function () {
+//     return view('kampus');
+// });
+Route::get('/', 'App\Http\Controllers\KampusController@viewKampus');
+
+Route::get('/banding', 'App\Http\Controllers\KampusController@viewCompare');
+
+Route::post('/comparison', 'App\Http\Controllers\KampusController@comparison');
+
+Route::get('/tambah', function () {
+    return view('tambah');
 });
+Route::get('/edit/{id}', 'App\Http\Controllers\KampusController@edit');
+
+Route::get('/edit/{id}', 'App\Http\Controllers\KampusController@edit');
+
+Route::post('/store', 'App\Http\Controllers\KampusController@store');
+
+Route::patch('/update/{id}', 'App\Http\Controllers\KampusController@update');
+
+Route::delete('/delete/{id}', 'App\Http\Controllers\KampusController@delete');

@@ -1,0 +1,91 @@
+h3{
+    font-style: italic;
+}
+.nav-ungu{
+    
+    background-color: #464AA6;
+}
+.nav-item2{
+    color: white;
+}
+
+
+
+/*
+GRIDDDD
+*/
+.grid-wrapper{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    column-gap: 10px;
+    row-gap: 15px;
+}
+.box{
+    margin: 10px;
+    border: solid 1px;
+    border-color: black;
+}
+
+.mainitems{
+    width: 90%;
+    margin: auto;
+}
+.items{
+    margin-left: 2px;
+    margin-right: 2px;
+}
+.foto-items{
+    width: 100%;
+    height: auto;
+}
+
+.container-items{
+    width: 80%;
+}
+
+.foto-items{
+    width: 100%;
+    height: auto;
+}
+
+
+/*
+ADMIN
+*/
+
+.tambah{
+    background-color: #464AA6;
+    color: white;
+}
+
+.edit{
+    background-color: #00B5AA;
+    color: white;
+}
+
+.data-kampus{
+    width: 95%;
+    margin: auto;
+    padding: 15px;
+    border: 1px;
+}
+
+.form-tambah{
+    width: 40%;
+    margin: auto;
+    padding: 15px;
+    border: 1px;
+}
+
+/*
+BANDINGKAN
+*/
+.container-banding{
+    width: 80%;
+}
+.banding{
+    width: 100%;
+}
+.item-banding{
+    border: solid 1px grey;
+}
