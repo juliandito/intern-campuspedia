@@ -5,7 +5,7 @@ Membuat aplikasi sederhana untuk membandingkan beberapa kampus dedngan menggunak
 
 ## Snapshot
 
-<img src="./Capture1.png" alt="Build Status">
-<img src="./Capture2.png" alt="Build Status">
-<img src="./Capture3.png" alt="Build Status">
-<img src="./Capture4.png" alt="Build Status">
+<img src="https://github.com/juliandito/intern-campuspedia/blob/main/Capture1.PNG" alt="snap">
+<img src="https://github.com/juliandito/intern-campuspedia/blob/main/Capture2.PNG" alt="snap">
+<img src="https://github.com/juliandito/intern-campuspedia/blob/main/Capture3.PNG" alt="snap">
+<img src="https://github.com/juliandito/intern-campuspedia/blob/main/Capture4.PNG" alt="snap">
